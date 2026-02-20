@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.work-sans-font {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* shared display */
+.display-flex {
+    display: flex;
+}
+
+.bg-light {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.dark-3{
+    color: #727272;
+}
+
+.btn-primary{
+    background-color: #FF900E;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding: 20px 25px;
+    border: none;
+    border-radius: 8px;
+}
+/* nav styles */
+.nav-bar {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #424242;
+    font-size: 18px;
+    font-weight: medium;
+}
+
+.brand {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    list-style: none;
+    margin-left: 35px;
+}
+
+.nav-bar,
+.banner {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* banner styles */
+
+.banner-content{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.banner-description{
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+.banner-images{
+    max-width: 100%;
+}

@@ -127,6 +127,25 @@ main>section {
     margin-bottom: 30px;
 }
 
+/* features will enjoy  */
+
+.features-section-container{
+    gap: 138px;
+}
+
+.features-will-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.features-cards{
+    padding: 32px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    gap: 20px;
+}
+
 /* fact related styles */
 
 .fact-description {
